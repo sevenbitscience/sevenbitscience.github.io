@@ -1,6 +1,12 @@
+body {
+    background-color: grey
+}
+
 /*nav bar */
 
 ul.topNav {
+    border: 5px;
+    border-color: dimgrey;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@ li.nks a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding:10px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
