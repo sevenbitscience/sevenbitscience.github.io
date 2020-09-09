@@ -78,13 +78,17 @@ a.lel {
 div.sideNav {
     float: right;
     margin: 5px;
-    border: 4px;
-    border-style: groove;
-    border-color: white;
     padding: 4px
 }
 
-div.sideNav a {
+div.sideLinks {
+    border: 4px;
+    border-style: groove;
+    border-color: white;
+    padding: 2px;
+}
+
+div.sideLinks a {
     color: gold;
     text-decoration: none;
 }
