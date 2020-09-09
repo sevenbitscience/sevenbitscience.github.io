@@ -6,20 +6,27 @@ body {
 
 ul.topNav {
     border: 5px;
-    border-color: dimgrey;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     overflow: hidden;
-    background-color: #3366ff;
+    background-color: dimgray;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 25px;
+    
 }
 
 ul.topNav li {float: left;}
 
-ul.topNav .icon {display: none;}
+ul.topNav .icon {
+    float: left;
+}
 
 li.nks a:hover {
-    background-color: #6688ff;
+    color: #afafaf;
 }
 
 li.nks a {
@@ -28,6 +35,22 @@ li.nks a {
     text-align: center;
     padding:10px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.1s;
     font-size: 17px;
+    font-family:  sans-serif;
+}
+
+h1 {
+    color: #e5e5e5;
+    text-align: center;
+}
+
+h3 {
+    color: #404040;
+    text-align: center;
+}
+
+a.lel {
+    font-size: 30px;
+    
 }
