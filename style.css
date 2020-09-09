@@ -52,5 +52,11 @@ h3 {
 
 a.lel {
     font-size: 30px;
-    
+    color: #d0d0d0;
+}
+
+h1.title {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 30px;
 }
