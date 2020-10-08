@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(214 190 150);
+}
+
+div.ree {
+    margin: 10vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 1vw;
+    text-align: center;
+    background-color: white;
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    font-family: "Roboto";
+}
+
+div.ree h1 {
+    font-size: 3vw;
+}
+
+div.ree h2 {
+    font-size: 2vw;
+    font-family: "Playfair Display";
+}
+
+div.ree b{
+    font-size: 1vw;
+}
+
+div.ree a {
+    color: gray;
+    font-size: 3vw;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 3px;
+}
+
+div.ree a:hover {
+    color: #cdcdcd;
+    font-size: 4vw;
+}
