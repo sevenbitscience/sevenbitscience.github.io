@@ -5,45 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-    background-color: grey;
-}
-
-/*nav bar */
-
-ul.topNav {
-    border: 5px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    overflow: hidden;
-    background-color: dimgray;
-    border-style: solid;
-    border-color: darkgray;
-    border-radius: 25px;
-    
-}
-
-ul.topNav li {float: left;}
-
-ul.topNav .icon {
-    float: left;
-}
-
-li.nks a:hover {
-    color: #afafaf;
-}
-
-li.nks a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding:10px;
-    text-decoration: none;
-    transition: 0.1s;
-    font-size: 17px;
-    font-family:  sans-serif;
+    background-color: rgb(214 190 150);
 }
 
 h1 {
@@ -78,7 +40,7 @@ a.lel {
 div.sideNav {
     float: right;
     margin: 5px;
-    padding: 4px
+    padding: 4px;
 }
 
 div.sideLinks {
