@@ -22,11 +22,13 @@ div.ree {
 }
 
 div.ree h1 {
-    font-size: 3vw;
+    font-size: 4vw;
+    color: black;
 }
 
 div.ree h2 {
-    font-size: 2vw;
+    font-size: 3vw;
+    color: #2e2e2e;
     font-family: "Playfair Display";
 }
 
@@ -36,7 +38,7 @@ div.ree b{
 
 div.ree a {
     color: gray;
-    font-size: 3vw;
+    font-size: 2vw;
     text-decoration: none;
     transition: 0.2s;
     margin: 3px;
@@ -44,5 +46,5 @@ div.ree a {
 
 div.ree a:hover {
     color: #cdcdcd;
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
