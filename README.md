@@ -1,2 +1,2 @@
 # sevenbitscience.github.io
-whats a webpage ¯\_(ツ)_/¯
+whats a webpage ¯\\_(ツ)_/¯
