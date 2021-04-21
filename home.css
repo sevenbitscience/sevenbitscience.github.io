@@ -54,18 +54,18 @@ div.main a:hover {
 }
 
 div.nav a {
-    color: black;
+    color: grey;
     font-size: 1.5vw;
     text-decoration: none;
     margin: 3px;
 }
 
 div.nav a:hover {
-    color: grey;
+    color: black;
     font-size: 1.5vw;
 }
 
 div.nav b {
-    color:grey;
+    color:black;
     font-size: 1.5vw;
 }
