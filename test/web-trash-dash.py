@@ -1,16 +1,27 @@
-import pygame as pg
+import pygame
 
-pg.init()
 
-disp = pg.display.set_mode((200, 200))
+def main():
+    # start pygame
+    pygame.init()
+    clock = pygame.time.Clock()
+    screen = pygame.display.set_mode((1280, 640))
+    # pygame.display.set_caption("Trash dash")
 
-clock = pg.time.Clock()
+    on_title = True
 
-while True:
-    clock.tick(8)
-    for e in pg.event.get():
-        if e.type == pg.QUIT:
-            pg.quit()
-            break
-    disp.fill(pg.Color("black"))
-    pg.display.update()
+    while on_title:
+        clock.tick(8)
+        select = False
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                break
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                pygame.quit()
+                break
+        pygame.display.update()
+
+
+if __name__ == "__main__":
+    main()
