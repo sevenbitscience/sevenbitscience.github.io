@@ -3,32 +3,30 @@ import random
 
 
 class Player:
-    position = pygame.Vector2()
-    position.xy = 100, 400
-    velocity = pygame.Vector2()
-    velocity.xy = 0, 0
+    position = [100, 400]
+    velocity = [0, 0]
     speed = 2
     # drag = 0.1
     frame = 0
     costume = 0
-    walk = [pygame.image.load("assets/gfx/walking/Dino R1.png"), pygame.image.load("assets/gfx/walking/Dino R2.png"),
-            pygame.image.load("assets/gfx/walking/Dino R3.png"), pygame.image.load("assets/gfx/walking/Dino R4.png"),
-            pygame.image.load("assets/gfx/walking/Dino R5.png"), pygame.image.load("assets/gfx/walking/Dino R6.png")]
+    walk = [pygame.image.load("assets/gfx/walking/DinoR1.png"), pygame.image.load("assets/gfx/walking/DinoR2.png"),
+            pygame.image.load("assets/gfx/walking/DinoR3.png"), pygame.image.load("assets/gfx/walking/dinoR4.png"),
+            pygame.image.load("assets/gfx/walking/DinoR5.png"), pygame.image.load("assets/gfx/walking/dinoR6.png")]
     idle = pygame.image.load("assets/gfx/dino.png")
-    duck_walk = [pygame.image.load("assets/gfx/DuckDino/Duck R1.png"), pygame.image.load(
-        "assets/gfx/DuckDino/Duck R2.png"),
-                 pygame.image.load("assets/gfx/DuckDino/Duck R3.png"), pygame.image.load(
-            "assets/gfx/DuckDino/Duck R4.png"),
-                 pygame.image.load("assets/gfx/DuckDino/Duck R5.png"), pygame.image.load(
-            "assets/gfx/DuckDino/Duck R6.png")]
-    duck_idle = pygame.image.load("assets/gfx/DuckDino/Duck Idle.png")
-    robo_walk = [pygame.image.load("assets/gfx/RoboDino/ROBO R1.png"), pygame.image.load(
-        "assets/gfx/RoboDino/ROBO R2.png"),
-                 pygame.image.load("assets/gfx/RoboDino/ROBO R3.png"), pygame.image.load(
-            "assets/gfx/RoboDino/ROBO R4.png"),
-                 pygame.image.load("assets/gfx/RoboDino/ROBO R5.png"), pygame.image.load(
-            "assets/gfx/RoboDino/ROBO R6.png")]
-    robo_idle = pygame.image.load("assets/gfx/RoboDino/Dino Bot Idle.png")
+    duck_walk = [pygame.image.load("assets/gfx/DuckDino/duckR1.png"), pygame.image.load(
+        "assets/gfx/DuckDino/duckR2.png"),
+                 pygame.image.load("assets/gfx/DuckDino/duckR3.png"), pygame.image.load(
+            "assets/gfx/DuckDino/duckR4.png"),
+                 pygame.image.load("assets/gfx/DuckDino/duckR5.png"), pygame.image.load(
+            "assets/gfx/DuckDino/duckR6.png")]
+    duck_idle = pygame.image.load("assets/gfx/DuckDino/duckIdle.png")
+    robo_walk = [pygame.image.load("assets/gfx/RoboDino/ROBOR1.png"), pygame.image.load(
+        "assets/gfx/RoboDino/ROBOR2.png"),
+                 pygame.image.load("assets/gfx/RoboDino/ROBOR3.png"), pygame.image.load(
+            "assets/gfx/RoboDino/ROBOR4.png"),
+                 pygame.image.load("assets/gfx/RoboDino/ROBOR5.png"), pygame.image.load(
+            "assets/gfx/RoboDino/ROBOR6.png")]
+    robo_idle = pygame.image.load("assets/gfx/RoboDino/dinoBotIdle.png")
     rightSprite = idle
     rightSprite = pygame.transform.scale(rightSprite, (60, 60))
     leftSprite = pygame.transform.flip(rightSprite, True, False)
@@ -61,7 +59,6 @@ class Player:
         self.leftSprite = pygame.transform.flip(self.rightSprite, True, False)
 
 
-
 class Trash:
     trashSprites = [pygame.image.load("assets/gfx/appleCore.png"), pygame.image.load("assets/gfx/soda.png")]
 
@@ -71,13 +68,12 @@ class Trash:
         self.sprite = self.trashSprites[random.randint(0, len(self.trashSprites)-1)]
         self.sprite = pygame.transform.scale(self.sprite, (self.size, self.size))
         self.sprite = pygame.transform.rotate(self.sprite, random.randrange(0, 360))
-        self.position = pygame.Vector2()
-        self.position.xy = random.randrange(370, 1100), random.randrange(-500, -50)
+        self.position = [random.randrange(370, 1100), random.randrange(-500, -50)]
         self.speed = random.randrange(5, 10) / 10
 
     def fall(self):
-        if self.position.y < self.screenheight:
-            self.position.y += self.speed
+        if self.position[1] < self.screenheight:
+            self.position[1] += self.speed
         else:
             self.__init__(self.screenheight)
 
