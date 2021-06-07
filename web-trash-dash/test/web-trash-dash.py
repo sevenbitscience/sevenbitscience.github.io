@@ -2,6 +2,13 @@ import pygame
 import random
 
 
+class Trash:
+    def __init__(self):
+        self.trashSprite = pygame.image.load("assets/gfx/appleCore.png")
+        self.sprite = self.TrashSprite
+        self.position = pygame.Vector2(200, 200)
+
+
 def check_collision_list(a, b):
     return (a[0] + a[2] > b[0]) and (a[0] < b[0] + b[2]) and (a[1] + a[3] > b[1]) and (a[1] < b[1] + b[3])
 
@@ -27,6 +34,8 @@ def main():
     quit_text = upgrades_font.render("Quit", True, (181, 23, 2))
     inside = pygame.image.load("assets/gfx/inside.png")
     inside = pygame.transform.scale(inside, (1280, 640))
+
+    trash_pieces = Trash()
 
     running = False
 
