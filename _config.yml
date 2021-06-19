@@ -1,47 +1,85 @@
-# Setup
-title: Dark Poole
-url: https://www.sevenbitscience.com
-paginate: 1
-paginate_path: "page:num/"
-baseurl: ""
-permalink: pretty
+site: Gesko
+title: Gesko
+description: >-
+  just a minimalist, personal blog
+googlewebfonts: Fira+Code:wght@400;500;700
+lang: en-US
+timezone: Rome
+repo: https://github.com/p0wex/Gesko # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+author:
+  name: p0wex
+  bio: just a minimalist, personal blog
+  username: p0wex # general username
+  github: p0wex # github username
+  twitter: P0Wex # twitter username
+  email: your-email@email.com # email adress
 
-# Optimize Jekyll
+# URL settings
+url: "https://p0wex.github.io/" #
+baseurl: "/Gesko" # leave blank if not wishd
+permalink: "https://p0wex.github.io/Gesko"
+permalink: pretty 
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
 exclude:
-  - .editorconfig
-  - .git
   - .jekyll-cache
+  - .obsidian
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 
-# Options
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
 
-# Replace this value and uncomment to enable Google Analytics tracking
-ga_analytics: G-ZLTQHBSGL2
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# Specify the author for blog posts
-author:
-  name: Joey Milausnic
+relative_links:
+  enabled:     true
+  collections: false
 
-# Custom vars
-version: 3.0.0
 
-# Navbar page list
-nav:
-  - title: Blog
-    url: archive
-
-  - title: About
-    url: about
