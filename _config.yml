@@ -1,26 +1,23 @@
-site: Gesko
-title: Gesko
-description: >-
-  just a minimalist, personal blog
+site: sevenbitscience
+title: Seven Bit science
+description: just a simple personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
 repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: p0wex
+  name: Joey Milausnic
   bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  username: sevenbitscience # general username
+  github: sevenbitscience # github username
+  email: milausnic@email.com # email adress
 
 # URL settings
-url: "https://p0wex.github.io/" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://p0wex.github.io/Gesko"
-permalink: pretty 
+url: "https://www.sevenbitscience.com" #
+baseurl: "" # leave blank if not wishd
+permalink: "https://www.sevenbitscience.com"
+permalink: pretty
 
 
 markdown: kramdown
@@ -37,7 +34,7 @@ exclude:
   - LICENSE.md
   - README.md
   - CONTRIBUTING.md
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -58,7 +55,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
@@ -81,5 +78,3 @@ defaults:
 relative_links:
   enabled:     true
   collections: false
-
-
