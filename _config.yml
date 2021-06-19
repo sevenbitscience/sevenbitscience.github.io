@@ -1,9 +1,9 @@
 # Setup
 title: Dark Poole
-url: https://andrewhwanpark.github.io/dark-poole
+url: https://www.sevenbitscience.com
 paginate: 1
-paginate_path: "/dark-poole/page:num/"
-baseurl: "/dark-poole"
+paginate_path: "page:num/"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -29,13 +29,11 @@ sass:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+ga_analytics: G-ZLTQHBSGL2
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Joey Milausnic
 
 # Custom vars
 version: 3.0.0
@@ -43,7 +41,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /dark-poole/archive
+    url: archive
 
   - title: About
-    url: /dark-poole/about
+    url: about
