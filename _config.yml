@@ -3,12 +3,11 @@ title: Seven Bit science
 description: just a simple personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
   name: Joey Milausnic
-  bio: just a minimalist, personal blog
+  bio: idk i do stuff or whatever
   username: sevenbitscience # general username
   github: sevenbitscience # github username
   email: milausnic@email.com # email adress
