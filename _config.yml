@@ -16,7 +16,7 @@ author:
 url: "https://www.sevenbitscience.com" #
 baseurl: "" # leave blank if not wishd
 permalink: "https://www.sevenbitscience.com"
-permalink: pretty
+# permalink: pretty
 
 
 markdown: kramdown
