@@ -77,3 +77,6 @@ defaults:
 relative_links:
   enabled:     true
   collections: false
+
+paginate: 5
+paginate_path: "/page=:num"
