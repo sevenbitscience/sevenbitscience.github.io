@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Minecraft Computer | Update 1
-description: Basics of how my minecraft computer will work
+description: How the computer will work and some updates to the operations.
 tags: minecraft-computer
 ---
-# Intro
-This is the first *real* update on my minecraft computer.
-This update is going to be about how the computer will work in minecraft and some updates to the operations.
-
 # How will it work
 Other people have made computers in minecraft before using redstone.
 I have tried making a redstone computer before but it's just not somthing I can do right now.
