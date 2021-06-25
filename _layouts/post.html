@@ -12,6 +12,7 @@ layout: default
   </div>
   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
   <h1 class="title">{{ page.title }}</h1>
+  <h2>{{ page.description }}</h2>
   <span class="meta">
     {% for tag in page.tags %}
     <a href="{{ site.baseurl }}/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
