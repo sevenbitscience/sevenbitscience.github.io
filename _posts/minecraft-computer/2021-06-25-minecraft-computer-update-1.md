@@ -14,7 +14,7 @@ I started using command blocks but now I am going to make it work in a datapack,
 
 # The actual computer
 Here is a picture of the command block version of the computer.
-![command block computer](http://www.sevenbitscience.com/assets/images/minecraft-computer-command-block-based.png)
+![command block computer](http://www.7bitsci.com/assets/images/minecraft-computer-command-block-based.png)
 The memory is on the right, with program memory on the bottom and memory on top.
 Then the first line of command blocks next to that is to reset the computer.
 The next line of command blocks reads a from program memory.
