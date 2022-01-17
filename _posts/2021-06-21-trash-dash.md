@@ -5,7 +5,7 @@ tags: python coding
 ---
 # Intro
  Trash Dash is a game that I helped make about water pollution (kinda).
- I am being kinda brief about playing it and and stuff bc I already made a website for the game with more info on playing it and stuff [here is a link to it](https://trashdash.sevenbitscience.com).
+ I am being kinda brief about playing it and and stuff bc I already made a website for the game with more info on playing it and stuff [here is a link to it](https://trashdash.7bitsci.com).
  Anyways this is going to be a more behind the scenes and how it got made view of the project.
 
 # Starting off in unity
