@@ -13,9 +13,9 @@ author:
   email: milausnic@email.com # email adress
 
 # URL settings
-url: "https://www.7bitsci.com" #
+url: "https://sevenbitscience.github.io/" #
 baseurl: "" # leave blank if not wishd
-permalink: "https://www.7bitsci.com"
+permalink: "https://sevenbitscience.github.io/"
 # permalink: pretty
 
 
