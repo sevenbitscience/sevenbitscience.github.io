@@ -14,7 +14,7 @@ One of the primary motivations I see for personal programming projects is for le
 Frequently I find that the most effective way to learn a new concept independently is to tie it into some project.
 
 These projects will likely be fairly short in scope, each probably no more than a week long.
-Because these are generally small exploratory projects with short timelines, I 
+I will try to get at least one of these posts out each week.
 
 # Intro 
 
@@ -187,7 +187,7 @@ I once again turned to Gemini for this task, and it provided me with another sho
 The process for finding the URL for a camera is still sub par.
 You have to open up the 511 Virginia map and select a camera, then while it is streaming you can open the dev tools, go to the network tab and filter by requests with the domain "vdotcameras.com/rtplive".
 
-![Screenshot showing where the information for a camera is located in the network tab of the Firefox debugger](/assets/vdot-511-cam-info.png)
+![Screenshot showing where the information for a camera is located in the network tab of the Firefox debugger](/assets/images/vdot-511-cam-info.png)
 
 The important information is the number that follows `media-sfs`, which I think refers to some zone or just is an identifier associated with a group of cameras which in this case is `5`, and the name of the camera, in this instance `FairfaxVideo1041`.
 
@@ -195,7 +195,7 @@ The most interesting version of my program is the "video mode". This pulls live 
 I have it show the up scaled image feed from the camera with the cars from the cascade classifier marked on the image in red.
 I also have it show just the foreground mask, the foreground from the video, and the detected cars from the masked video in green.
 
-![Screenshot of the windows shown in "video mode"](/assets/traffic-cams-1.png)
+![Screenshot of the windows shown in "video mode"](/assets/images/traffic-cams-1.png)
 
 Looking at various feeds using this mode showed me that my assumptions that cutting out only the movement did improve detection, but neither mode can reliably identify all the cars out of any given frame.
 
