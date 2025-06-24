@@ -177,6 +177,8 @@ I separated the code out into 3 files, a `vdot_cameras.py` containing the code t
 I used `argparse` to add command line arguments to make the program easy to use.
 I had noticed that the URL's for the VDOT camera feeds seemed to follow a consistent format, so I created command line args so a user can decide which camera to use.
 
+The files for this version of the program can be found [in this github repository](https://github.com/sevenbitscience/traffic_cameras)
+
 Diving back into HLS for a second, there was another detail I wanted to flesh out.
 It looked like the client first requests a `playlist.m3u8` file which links to a chunklist file.
 The chunklist files had a long number in their title, which looked like it could be some unique identifier that I was worried may change over time.
@@ -214,4 +216,3 @@ I think the final state the program is at is pretty cool, and I think that the m
 I learned a lot about streaming video in python as well as how to make use of OpenCV to modify images and do some object detection.
 I think it is really cool how I now have a system built to get images automatically from the VDOT traffic cameras.
 Overall, I felt like I learned a lot from this project and I think I will probably revisit it soon.
-
