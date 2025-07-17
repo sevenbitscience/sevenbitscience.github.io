@@ -3,6 +3,7 @@ layout: post
 title: Minecraft Computer | Update 0
 description: The core concept of my minecraft computer
 tags: minecraft-computer
+published: false
 ---
 # Intro
 I am working on making a working computer in vanilla minecraft that can be easily reprogramed.

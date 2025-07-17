@@ -3,6 +3,7 @@ layout: post
 title: Minecraft Computer | Update 1
 description: How the computer will work and some updates to the operations.
 tags: minecraft-computer
+published: false
 ---
 # How will it work
 Other people have made computers in minecraft before using redstone.

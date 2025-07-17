@@ -3,6 +3,7 @@ layout: post
 title: Minecraft Computer | Update 2
 description: So I did some reaserch...
 tags: minecraft-computer
+published: false
 ---
 I hadn't realy done any reaserch on how computers work but I had some basic knowlage on how computers work when I started this.
 I was just trying to figure out how computers work on my own.  
