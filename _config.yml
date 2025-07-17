@@ -1,13 +1,13 @@
 site: sevenbitscience
-title: Seven Bit science
-description: just a simple personal blog
+title: Seven Bit Science
+description: Joey Milausnic's Personal Blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 data-theme: dark # default theme "dark" | "light"
 
 author:
   name: Joey Milausnic
-  bio: idk i do stuff or whatever
+  bio: Comp-sci student @ CNU
   username: sevenbitscience # general username
   github: sevenbitscience # github username
   email: milausnic@email.com # email adress
