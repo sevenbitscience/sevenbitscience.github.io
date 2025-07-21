@@ -57,7 +57,7 @@ I think that it can last for about 18 hours on battery power.
 
 Initially, I didn't get very promising results.
 I only saw a couple nodes overnight, so I decided to see if I was doing something wrong.
-I looked to see if there was any online discussion of meshtastic in the DMV area and I found an online community for [Meshtastic in NOVA](https://groups.io/g/NoVa-Meshtastic), and they even have a [getting started guide](https://groups.io/g/NoVa-Meshtastic/topic/northern_virginia_meshtastic/103474402#), Perfect!
+I looked to see if there was any online discussion of Meshtastic in the DMV area and I found an online community for [Meshtastic in NOVA](https://groups.io/g/NoVa-Meshtastic), and they even have a [getting started guide](https://groups.io/g/NoVa-Meshtastic/topic/northern_virginia_meshtastic/103474402#), Perfect!
 As it turns out, they decided to switch away from the default LoRa channel channel 20, in favor of channel 9.
 After reflashing the Heletec and setting the LoRa channel to 9, as well as enabling "OK to MQTT", as suggested in the getting started guide, I immediately started seeing nodes show up!
 
@@ -116,10 +116,10 @@ I also set the device to use a fixed position, and to only send out position bro
 The solar panel I used is one a "flexible amorphous silicon" style one.
 Again, this is just a panel that I have had lying around for a number of years, but from looking online it looks like they are marketed to output 1 watt of power at about 6 V.
 From my testing it reached about 4.0 to 4.5 volts inside the case, which in full sun could be enough to fully charge the battery.
-It also seemed that these panels are marketed for good shade performace, and I think I saw that pretty well.
+It also seemed that these panels are marketed for good shade performance, and I think I saw that pretty well.
 Even when the panel was shielded by clouds or some shade, it could output something in the neighborhood of 3.4 volts, which is enough to power the Heltec V3, although it might not charge the battery super well.
 
-Initially, I repurposed [this](https://www.amazon.com/Adafruit-Micro-Lipo-Charger-ADA1304/dp/B00OKJFEQ2) little LTC4050-based USB LiPo charger from Adafruit, connecting the solar panel to the USB power pins and the meshtastic's power connector to the LiPo connector is parallel.
+Initially, I repurposed [this](https://www.amazon.com/Adafruit-Micro-Lipo-Charger-ADA1304/dp/B00OKJFEQ2) little LTC4050-based USB LiPo charger from Adafruit, connecting the solar panel to the USB power pins and the Meshtastic's power connector to the LiPo connector is parallel.
 This seemed to work fine, but I was unsure about the whole arrangement.
 It's output current is limited to 100 mA by default which may not have been enough to charge the LiPo and power the Heltec V3.
 
